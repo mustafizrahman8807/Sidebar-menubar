@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png"/>
+    <!-- Font-awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+          integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <!-- CSS-->
+    <link rel="stylesheet" href="style.css">
+    <title>Side Menubar</title>
+</head>
+<body>
+<!--wrapper start-->
+<div class="wrapper">
+    <!--header menu start-->
+    <div class="header">
+        <div class="header-menu">
+            <div class="title">Sarah<span>Suha</span></div>
+            <div class="sidebar-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul>
+                <li><a href="#"> <i class="fas fa-search"></i></a></li>
+                <li><a href="#"> <i class="fas fa-bell"></i></a></li>
+                <li><a href="#"> <i class="fas fa-power-off"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <!--header menu end-->
+    <!--    sidebar starts-->
+    <div class="sidebar">
+        <div class="sidebar-menu">
+            <centre class="profile">
+                <img src="images/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.jpg"
+                     alt="Photo by Andrea Piacquadio from Pexels">
+                <p>Sarah</p>
+            </centre>
+            <li class="item">
+                <a href="#" class="menu-btn">
+                    <i class="fas fa-desktop"></i><span>Dashboard</span>
+                </a>
+            </li>
+            <li class="item" id="profile">
+                <a href="#profile" class="menu-btn">
+                    <i class="fas fa-user-circle"></i><span>Profile <i class="fas fa-chevron-down drop-down"></i></span>
+                </a>
+                <div class="sub-menu">
+                    <a href="#"><i class="fas fa-image"></i><span>Picture</span></a>
+                    <a href="#"><i class="fas fa-address-card"></i><span>Info</span></a>
+                </div>
+            </li>
+            <li class="item" id="messages">
+                <a href="#messages" class="menu-btn">
+                    <i class="fas fa-envelop"></i><span>Messages<i class="fas fa-chevron-down drop-down"></i></span>
+                </a>
+                <div class="sub-menu">
+                    <a href="#"><i class="fas fa-envelope"></i><span>New</span></a>
+                    <a href="#"><i class="fas fa-envelope-square"></i><span>Sent</span></a>
+                    <a href="#"><i class="fas fa-exclamation-circle"></i><span>Spam</span></a>
+                </div>
+            </li>
+            <li class="item" id="settings">
+                <a href="#settings" class="menu-btn">
+                    <i class="fas fa-cog"></i><span>Settings <i class="fas fa-chevron-down drop-down"></i></span>
+                </a>
+                <div class="sub-menu">
+                    <a href="#"><i class="fas fa-lock"></i><span>Password</span></a>
+                    <a href="#"><i class="fas fa-address-card"></i><span>Language</span></a>
+                </div>
+            </li>
+            <li class="item">
+                <a href="#" class="menu-btn">
+                    <i class="fas fa-info-circle"></i><span>About</span>
+                </a>
+            </li>
+        </div>
+    </div>
+    <!--    sidebar ends-->
+    <!--wrapper end-->
+</div>
+</body>
+</html>
