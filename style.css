@@ -77,4 +77,33 @@ display: flex;
     transition-property: background, color;
 }
 
-/*finished 11:08*/
+.wrapper .header .header-menu ul li a:hover {
+    background: #4ccee8;
+    color: #ffffff;
+}
+
+.wrapper .sidebar {
+    z-index: 1;
+    background: #2f323a;
+    position: fixed;
+    top: 70px;
+    width: 250px;
+    height: calc(100% - 9%);
+    transition: 0.3s;
+    transition-property: width;
+    overflow-y: auto;
+}
+
+.wrapper .sidebar .sidebar-menu {
+    overflow: hidden;
+}
+
+.wrapper .sidebar .sidebar-menu .profile img {
+    margin: 20px 0;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+
+/*finished 12:46*/
